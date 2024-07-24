@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
-weight = 1
-title = "Red Blowfish"
+weight = 2
+title = "Kody Blog"
 
 [params]
 displayName = "EN"

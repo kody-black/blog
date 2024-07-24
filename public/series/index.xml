@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on Red Blowfish</title>
+    <title>Series on 且听风吟</title>
     <link>//localhost:1313/series/</link>
-    <description>Recent content in Series on Red Blowfish</description>
+    <description>Recent content in Series on 且听风吟</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <copyright>© 2024 Kody Black</copyright>
     <atom:link href="//localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>

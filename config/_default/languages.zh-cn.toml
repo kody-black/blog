@@ -1,0 +1,19 @@
+languageCode = "zh-cn"
+languageName = "ZH-CN"
+weight = 1
+title = "且听风吟"
+
+[params]
+displayName = "简体中文"
+isoCode = "zh-cn"
+rtl = false
+description = "My awesome website"
+dateFormat = "2006年1月2日"
+logo = "logo/logo.png"
+
+[author]
+name = "Kody Black"
+image = "img/robot.png"
+headline = "Actions speak louder than words."
+bio = "网络空间安全专业 SJTUer"
+links = [ { link = "https://github.com/distiny-cool/distiny-cool.github.io" }, { github = "https://github.com/distiny-cool" }, { x-twitter = "https://x.com/DistinyKody" } ]

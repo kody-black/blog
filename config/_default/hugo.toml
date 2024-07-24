@@ -4,7 +4,7 @@
 
 theme = "blowfish"
 # baseURL = "https://your_domain.com/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 
 enableRobotsTXT = true
 paginate = 20
