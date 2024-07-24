@@ -3,78 +3,78 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>/en/authors/</loc>
+    <loc>http://localhost:1313/blog/en/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/authors/"
+      href="http://localhost:1313/blog/authors/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/en/authors/"
+      href="http://localhost:1313/blog/en/authors/"
     />
   </url>
   <url>
-    <loc>/en/categories/</loc>
+    <loc>http://localhost:1313/blog/en/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/categories/"
+      href="http://localhost:1313/blog/categories/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/en/categories/"
+      href="http://localhost:1313/blog/en/categories/"
     />
   </url>
   <url>
-    <loc>/en/</loc>
+    <loc>http://localhost:1313/blog/en/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/"
+      href="http://localhost:1313/blog/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/en/"
+      href="http://localhost:1313/blog/en/"
     />
   </url>
   <url>
-    <loc>/en/series/</loc>
+    <loc>http://localhost:1313/blog/en/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/series/"
+      href="http://localhost:1313/blog/series/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/en/series/"
+      href="http://localhost:1313/blog/en/series/"
     />
   </url>
   <url>
-    <loc>/en/tags/</loc>
+    <loc>http://localhost:1313/blog/en/tags/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
     <xhtml:link
       rel="alternate"
       hreflang="zh-cn"
-      href="/tags/"
+      href="http://localhost:1313/blog/tags/"
     />
     <xhtml:link
       rel="alternate"
       hreflang="en"
-      href="/en/tags/"
+      href="http://localhost:1313/blog/en/tags/"
     />
   </url>
 </urlset>
