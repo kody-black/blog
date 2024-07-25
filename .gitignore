@@ -103,5 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-# public目录里面的内容应该会自动生成
-public/
+# public目录里面的内容会自动生成
+# 但是如果不加入仓库的话，加载会很慢，所以不应该放在.gitignore里面
+# public/
