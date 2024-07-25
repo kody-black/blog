@@ -3,12 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/blog/categories/blog/</loc>
-    <lastmod>2024-04-22T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/blog/categories/</loc>
     <lastmod>2024-04-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -65,6 +59,12 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/blog/categories/%E7%BB%83%E4%B9%A0/</loc>
+    <lastmod>2024-04-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2024-04-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -83,6 +83,12 @@
   <url>
     <loc>http://localhost:1313/blog/posts/first/</loc>
     <lastmod>2024-04-22T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/categories/blog/</loc>
+    <lastmod>2022-09-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

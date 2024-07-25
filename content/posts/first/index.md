@@ -2,7 +2,7 @@
 title: "正则表达式练习 regex101"
 date: 2024-04-22
 summary: "正则表达式练习"
-categories: ["Post","Blog",]
+categories: ["Post","练习",]
 tags: ["post","lorem","ipsum"]
 draft: false
 ---

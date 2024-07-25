@@ -9,21 +9,31 @@
     <copyright>© 2024 Kody Black</copyright>
     <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/blog/categories/blog/</link>
-      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/blog/categories/blog/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Post</title>
       <link>http://localhost:1313/blog/categories/post/</link>
       <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/blog/categories/post/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>练习</title>
+      <link>http://localhost:1313/blog/categories/%E7%BB%83%E4%B9%A0/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/categories/%E7%BB%83%E4%B9%A0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/blog/categories/blog/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/categories/blog/</guid>
       <description></description>
       
     </item>
