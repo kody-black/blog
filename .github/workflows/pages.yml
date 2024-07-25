@@ -55,7 +55,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify -d ./public --baseURL https://distiny-cool.github.io/blog/
+          hugo --minify -d ./public --baseURL https://kody-black.github.io/blog/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -65,7 +65,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://distiny-cool.github.io/blog/
+      url: https://kody-black.github.io/blog/
     runs-on: ubuntu-latest
     needs: build
     steps:
