@@ -23,13 +23,13 @@
 [[main]]
   identifier = "web"
   pre = "link"
-  url = "https://github.com/distiny-cool/distiny-cool.github.io"
+  url = "https://github.com/kody-black/page"
   weight = 40
 
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/distiny-cool"
+  url = "https://github.com/kody-black"
   weight = 50
 
 [[main]]

@@ -15,4 +15,4 @@ name = "Kody Black"
 image = "img/avatar.png"
 headline = "Actions speak louder than words."
 bio = "A little bit about you"
-links = [ { link = "https://github.com/distiny-cool/distiny-cool.github.io" }, { github = "https://github.com/distiny-cool" }, { x-twitter = "https://x.com/DistinyKody" } ]
+links = [ { link = "https://github.com/kody-black/blog" }, { github = "https://github.com/kody-black" }, { x-twitter = "https://x.com/DistinyKody" } ]
