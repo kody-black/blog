@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lorem on 且听风吟</title>
+    <link>http://localhost:1313/blog/tags/lorem/</link>
+    <description>Recent content in Lorem on 且听风吟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Kody Black</copyright>
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/lorem/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>正则表达式练习 regex101</title>
+      <link>http://localhost:1313/blog/posts/first/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/first/</guid>
+      <description>在深入研究正则表达式的应用与解析过程中，通过解决具体题目和参与在线练习，如No one knows regex better than me和regex101的挑战，发现了PHP中对正则表达式独特处理方式。尤其是在转义字符和特殊字符模式匹配上，理解了在复杂模式中如何更精准地排除特定序列并正确匹配目标。练习还涉及到了灵活运用字符类，边界断言以及模式组合，以构建更高效更简洁的表达式，实现对目标字符串的精确匹配与替换，进而提高了问题解决能力。这一过程不仅是技巧的提升，更是对正则表达式解析器工作原理的深刻洞察。</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/first/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>http://localhost:1313/blog/posts/post-lite-one/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/post-lite-one/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/post-lite-one/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>http://localhost:1313/blog/posts/post-lite-three/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/post-lite-three/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/post-lite-three/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>http://localhost:1313/blog/posts/post-lite-two/</link>
+      <pubDate>Sun, 04 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/post-lite-two/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/post-lite-two/cover.png" />
+    </item>
+    
+    <item>
+      <title>Super cool article that I wrote</title>
+      <link>http://localhost:1313/blog/posts/post-lite-four/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/post-lite-four/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in eleifend justo, vestibulum congue lacus. Quisque est libero, lacinia sed placerat ac, interdum id urna.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/post-lite-four/cover.png" />
+    </item>
+    
+  </channel>
+</rss>

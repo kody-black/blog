@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ctf on 且听风吟</title>
+    <link>http://localhost:1313/blog/tags/ctf/</link>
+    <description>Recent content in Ctf on 且听风吟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Kody Black</copyright>
+    <lastBuildDate>Mon, 22 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>正则表达式练习 regex101</title>
+      <link>http://localhost:1313/blog/posts/first/</link>
+      <pubDate>Mon, 22 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/first/</guid>
+      <description>做一道正则表达式的题目，顺便复习一下相关知识
+题目：No one knows regex better than me - Bugku CTF # &amp;lt;?php error_reporting(0); $zero=$_REQUEST[&amp;#39;zero&amp;#39;]; $first=$_REQUEST[&amp;#39;first&amp;#39;]; $second=$zero.$first; if(preg_match_all(&amp;#34;/Yeedo|wants|a|girl|friend|or|a|flag/i&amp;#34;,$second)){ $key=$second; if(preg_match(&amp;#34;/\.\.|flag/&amp;#34;,$key)){ die(&amp;#34;Noooood hacker!&amp;#34;); }else{ $third=$first; if(preg_match(&amp;#34;/\\|\056\160\150\x70/i&amp;#34;,$third)){ $end=substr($third,5); highlight_file(base64_decode($zero).$end);//maybe flag in flag.php } } } else{ highlight_file(__FILE__); } 可以用gpt修改如下：方便直接在一些php在线工具中测试：</description>
+      
+    </item>
+    
+  </channel>
+</rss>
