@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# public目录里面的内容应该会自动生成
+public/
