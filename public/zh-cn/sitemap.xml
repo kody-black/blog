@@ -157,6 +157,11 @@
     />
   </url>
   <url>
+    <loc>http://localhost:1313/blog/categories/ctf/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/blog/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -170,5 +175,10 @@
       hreflang="zh-cn"
       href="http://localhost:1313/blog/series/"
     />
+  </url>
+  <url>
+    <loc>http://localhost:1313/blog/categories/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
