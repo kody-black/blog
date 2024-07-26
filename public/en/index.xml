@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kody Black</copyright>
-    <atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 20:55:37 +0100</lastBuildDate><atom:link href="http://localhost:1313/blog/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/blog/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/en/about/</guid>
+      <description>Hello, I am Kody, currently a postgraduate student in the Cybersecurity program at Shanghai Jiao Tong University. Welcome to my blog! Feel free to contact me if necessary. MA</description>
+      
+    </item>
+    
   </channel>
 </rss>

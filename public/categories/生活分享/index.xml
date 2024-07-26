@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活分享 on 且听风吟</title>
+    <link>http://localhost:1313/blog/categories/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/</link>
+    <description>Recent content in 生活分享 on 且听风吟</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 Kody Black</copyright>
+    <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/%E7%94%9F%E6%B4%BB%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新博客的创建历程</title>
+      <link>http://localhost:1313/blog/posts/%E6%96%B0%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA%E5%8E%86%E7%A8%8B/</link>
+      <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/%E6%96%B0%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA%E5%8E%86%E7%A8%8B/</guid>
+      <description>新博客创建后的第一篇博客！介绍下这两天博客的创建历程~</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/posts/%E6%96%B0%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA%E5%8E%86%E7%A8%8B/cover.png" />
+    </item>
+    
+  </channel>
+</rss>

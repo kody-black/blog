@@ -14,6 +14,10 @@ enableCodeCopy = true
 
 mainSections = ["posts"]
 # robots = ""
+
+defaultBackgroundImage = "/img/background.svg"
+defaultFeaturedImage = "/img/featured.svg"
+
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = true
@@ -45,13 +49,13 @@ smartTOCHideUnfocusedChildren = true
   #showLikes = true
   showComments = true
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
-  editURL = "https://github.com/kody-black/blog/"
+  showEdit = true
+  editURL = "https://github.com/kody-black/blog/blob/main/content/"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
@@ -59,11 +63,12 @@ smartTOCHideUnfocusedChildren = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
-  showTaxonomies = false 
+  showTaxonomies = true 
   showAuthorsBadges = false 
   showWordCount = true
   showSummary = true
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
+  showZenMode = true
 
 [list]
   showHero = true
@@ -82,6 +87,9 @@ smartTOCHideUnfocusedChildren = true
 
 [taxonomy]
   showTermCount = true
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background
+  cardView = true
 
 [firebase]
   # apiKey = "XXXXXX"
