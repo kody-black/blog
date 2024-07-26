@@ -11,7 +11,7 @@ showZenMode : false
 SharingLinks : false
 ---
 
-Hello, I am Kody, currently a postgraduate student in the Cybersecurity program at Shanghai Jiao Tong University.
+Hello, I am Kody, currently a postgraduate student in Cyber Science and Engineering, Shanghai Jiao Tong University.
 
 Welcome to my blog! Feel free to contact me if necessary. 
 
