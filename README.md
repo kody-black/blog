@@ -9,7 +9,7 @@
 
 我是[**Kody Black**](https://github.com/distiny-cool)，现在是上海交大网络空间安全专业的一名学生🤖🤖🤖。
 
-欢迎大家访问我的[博客](https://distiny-cool.github.io/blog)，有事邮箱联系：kodyblack@qq.com
+欢迎大家访问我的[博客](https://kody-black.github.io/blog)，有事邮箱联系：kodyblack@qq.com
 
 ### change from Blowfish - Artist Template
 This is a template for the Blowfish Hugo Theme. Feel free to use this repo as a quick way to get started with Blowfish. Please visit [Blowfish's main website](https://github.com/nunocoracao/blowfish) to read the complete documentation.
