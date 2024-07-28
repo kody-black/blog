@@ -12,7 +12,7 @@ dateFormat = "2 January 2006"
 
 [author]
 name = "Kody Black"
-image = "img/avatar.png"
+image = "img/kapibal.jpg"
 headline = "Actions speak louder than words."
 bio = "A little bit about you"
 links = [ { link = "https://github.com/kody-black/blog" }, { github = "https://github.com/kody-black" }, { x-twitter = "https://x.com/DistinyKody" } ]

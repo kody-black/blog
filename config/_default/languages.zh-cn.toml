@@ -13,7 +13,7 @@ dateFormat = "2006年1月2日"
 
 [author]
 name = "Kody Black"
-image = "img/avatar.png"
+image = "img/kapibal.jpg"
 headline = "Actions speak louder than words."
 bio = "网络空间安全专业 SJTUer"
 links = [ { link = "https://github.com/kody-black/blog" }, { github = "https://github.com/kody-black" }, { x-twitter = "https://x.com/DistinyKody" } ]
