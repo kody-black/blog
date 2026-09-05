@@ -11,7 +11,7 @@ description = "Kody Black 的网络安全、开发与学习笔记"
 dateFormat = "2006年1月2日"
 # logo = "logo/logo.png"
 
-[author]
+[params.author]
 name = "Kody Black"
 image = "img/kapibal.jpg"
 headline = "记录安全、开发与持续学习。"

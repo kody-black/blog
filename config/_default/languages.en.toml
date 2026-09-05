@@ -10,7 +10,7 @@ rtl = false
 description = "Kody Black's notes on cybersecurity, development, and learning"
 dateFormat = "2 January 2006"
 
-[author]
+[params.author]
 name = "Kody Black"
 image = "img/kapibal.jpg"
 headline = "Notes on security, development, and continuous learning."
