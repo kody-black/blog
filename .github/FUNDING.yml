@@ -1,0 +1,3 @@
+# https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+# 注意：GitHub 只认 .github/FUNDING.yml，放在仓库根目录不会被识别。
+github: [kody-black]

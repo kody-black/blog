@@ -39,7 +39,7 @@
     }
     mount.appendChild(s);
 
-    // 跟随 Blowfish 的外观开关（主题切换的是 <html> 上的 dark class）
+    // 跟随 Blowfish 的外观开关（切换时会在 html 元素上增删 dark class）
     var currentTheme = function () {
       return document.documentElement.classList.contains("dark") ? "dark" : "light";
     };

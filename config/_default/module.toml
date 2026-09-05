@@ -1,3 +1,6 @@
 [hugoVersion]
-  extended = false
+  # Blowfish 用 Hugo Pipes 编译 SCSS，必须 extended。
+  # 主题自己声明的也是 extended = true / 0.158.0 ~ 0.164.0，
+  # 这里写 false 会让版本校验放水，用非 extended 版本构建会静默产出无样式的站点。
+  extended = true
   min = "0.158.0"
