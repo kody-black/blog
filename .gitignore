@@ -103,6 +103,21 @@ dist
 # TernJS port file
 .tern-port
 
-# public目录里面的内容会自动生成
-# 但是如果不加入仓库的话，加载会很慢，所以不应该放在.gitignore里面
-# public/
+# ---- Hugo ----
+# 构建产物：线上发布走 GitHub Actions 的 artifact，构建命令带
+# --cleanDestinationDir 每次重新生成，把 public/ 入库只会污染历史。
+# （旧注释里"不入库加载会很慢"是误解，两者没有关系）
+/public/
+
+# 构建缓存：Hugo Pipes 生成的图片 / CSS / JS 缓存
+/resources/
+
+# Hugo 构建锁文件
+.hugo_build.lock
+
+# ---- 系统垃圾 ----
+.DS_Store
+Thumbs.db
+
+# ---- WorkBuddy 工作记录（不入库）----
+.workbuddy/
