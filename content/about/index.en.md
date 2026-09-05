@@ -17,6 +17,6 @@ Welcome to my blog! Feel free to contact me if necessary.
 
 <br>
 
-MAIL：{{< button href="mailto:2442658787@qq.com" >}}
-kodyblack@outlook.com
+MAIL：{{< button href="mailto:kodyblack@qq.com" >}}
+kodyblack@qq.com
 {{< /button >}}

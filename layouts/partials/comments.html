@@ -1,19 +1,75 @@
-<div id="disqus_thread"></div>
+{{- /*
+  Blowfish 官方扩展点（主题 single.html 里 templates.Exists "partials/comments.html" 主动探测）。
+  评论系统：giscus（GitHub Discussions 驱动）。
+  配置项统一放在 config/_default/params.toml 的 [giscus] 段，改配置不需要动这个文件。
+*/ -}}
+{{- $g := .Site.Params.giscus -}}
+{{- $lang := "en" -}}
+{{- if hasPrefix .Lang "zh" }}{{ $lang = "zh-CN" }}{{ end -}}
+
+{{- if and $g.repoId $g.categoryId -}}
+
+<div class="giscus"></div>
 <script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  (function () {
+    var ORIGIN = "https://giscus.app";
+    var mount = document.currentScript.previousElementSibling;
+
+    var attrs = {
+      "data-repo": "{{ $g.repo }}",
+      "data-repo-id": "{{ $g.repoId }}",
+      "data-category": "{{ $g.category }}",
+      "data-category-id": "{{ $g.categoryId }}",
+      "data-mapping": "{{ $g.mapping | default "pathname" }}",
+      "data-strict": "{{ $g.strict | default "0" }}",
+      "data-reactions-enabled": "{{ $g.reactionsEnabled | default "1" }}",
+      "data-emit-metadata": "{{ $g.emitMetadata | default "0" }}",
+      "data-input-position": "{{ $g.inputPosition | default "bottom" }}",
+      "data-theme": document.documentElement.classList.contains("dark") ? "dark" : "light",
+      "data-lang": "{{ $lang }}",
+      "data-loading": "{{ $g.loading | default "lazy" }}"
     };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://https-kody-black-github-io-blog.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+
+    var s = document.createElement("script");
+    s.src = ORIGIN + "/client.js";
+    s.async = true;
+    s.crossOrigin = "anonymous";
+    for (var k in attrs) {
+      s.setAttribute(k, attrs[k]);
+    }
+    mount.appendChild(s);
+
+    // 跟随 Blowfish 的外观开关（主题切换的是 <html> 上的 dark class）
+    var currentTheme = function () {
+      return document.documentElement.classList.contains("dark") ? "dark" : "light";
+    };
+    var push = function () {
+      var frame = document.querySelector("iframe.giscus-frame");
+      if (frame && frame.contentWindow) {
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme: currentTheme() } } },
+          ORIGIN
+        );
+      }
+    };
+    s.addEventListener("load", function () {
+      setTimeout(push, 800);
+    });
+    new MutationObserver(push).observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["class"]
+    });
+  })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>
+  {{ if hasPrefix .Lang "zh" }}评论功能需要启用 JavaScript。{{ else }}Please enable JavaScript to view the comments.{{ end }}
+</noscript>
+
+{{- else -}}
+
+{{- warnf "[BLOG] giscus 未配置完整：需要在 params.toml 的 [giscus] 段填好 repoId 和 categoryId，否则评论区不会渲染。" -}}
+<p class="pt-2 text-sm text-neutral-500 dark:text-neutral-400">
+  {{ if hasPrefix .Lang "zh" }}评论功能正在配置中。{{ else }}Comments are being set up.{{ end }}
+</p>
+
+{{- end -}}

@@ -17,7 +17,7 @@ sharingLinks: false
 
 <br>
 
-邮箱：{{< button href="mailto:2442658787@qq.com" >}}
+邮箱：{{< button href="mailto:kodyblack@qq.com" >}}
 kodyblack@qq.com
 {{< /button >}}
 
