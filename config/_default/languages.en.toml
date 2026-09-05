@@ -7,12 +7,12 @@ title = "Kody Blog"
 displayName = "EN"
 isoCode = "en"
 rtl = false
-description = "My awesome website"
+description = "Kody Black's notes on cybersecurity, development, and learning"
 dateFormat = "2 January 2006"
 
 [author]
 name = "Kody Black"
 image = "img/kapibal.jpg"
-headline = "Actions speak louder than words."
-bio = "A little bit about you"
+headline = "Notes on security, development, and continuous learning."
+bio = "Cybersecurity · SJTU"
 links = [ { link = "https://github.com/kody-black/blog" }, { github = "https://github.com/kody-black" }, { x-twitter = "https://x.com/DistinyKody" } ]

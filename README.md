@@ -1,17 +1,22 @@
-[![Build Status](https://travis-ci.org/distiny-cool/distiny-cool.github.io.svg?branch=master)](https://travis-ci.org/distiny-cool/distiny-cool.github.io)
-[![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-distiny-cool-distiny-cool-github-io-master)
-[![GitHub issues](https://img.shields.io/github/issues/distiny-cool/distiny-cool.github.io.svg?style=flat)](https://github.com/distiny-cool/distiny-cool.github.io/issues)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/distiny-cool/distiny-cool.github.io.svg?style=social&label=Star)](https://github.com/distiny-cool/distiny-cool.github.io)
-[![](https://img.shields.io/github/forks/distiny-cool/distiny-cool.github.io.svg?style=social&label=Fork)](https://github.com/distiny-cool/distiny-cool.github.io)
+# Kody Blog
 
-## 关于
+[![Deploy Hugo site to Pages](https://github.com/kody-black/blog/actions/workflows/pages.yml/badge.svg)](https://github.com/kody-black/blog/actions/workflows/pages.yml)
+[![Blowfish](https://img.shields.io/badge/Blowfish-v2.105.0-0284c7)](https://blowfish.page/)
 
-我是[**Kody Black**](https://github.com/distiny-cool)，现在是上海交大网络空间安全专业的一名学生🤖🤖🤖。
+Kody Black 的个人博客，记录网络安全、开发与学习笔记。
 
-欢迎大家访问我的[博客](https://kody-black.github.io/blog)，有事邮箱联系：kodyblack@qq.com
+- 站点：[kody-black.github.io/blog](https://kody-black.github.io/blog/)
+- 生成器：[Hugo](https://gohugo.io/)
+- 主题：[Blowfish](https://blowfish.page/)
 
-### change from Blowfish - Artist Template
-This is a template for the Blowfish Hugo Theme. Feel free to use this repo as a quick way to get started with Blowfish. Please visit [Blowfish's main website](https://github.com/nunocoracao/blowfish) to read the complete documentation.
-The template was built using the [Git option](https://nunocoracao.github.io/blowfish/docs/installation/#install-using-git) from Blowfish's installations instructions.
+## 本地运行
+
+需要 Hugo Extended 0.158.0 或更高版本，并初始化主题子模块：
+
+```bash
+git submodule update --init --recursive
+hugo server --minify -D -E -F
+```
+
+推送到 `main` 后，GitHub Actions 会自动构建并发布到 GitHub Pages。
 

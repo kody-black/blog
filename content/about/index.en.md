@@ -1,14 +1,14 @@
 ---
-description: "关于"
-showComments: true
+title: "About"
+description: "About Kody Black"
 showEdit: false
 showAuthor: false
 showDate: false
-showComments : false
-showWordCount : false
-showReadingTime : false
-showZenMode : false
-SharingLinks : false
+showComments: false
+showWordCount: false
+showReadingTime: false
+showZenMode: false
+sharingLinks: false
 ---
 
 Hello, I am Kody, currently a postgraduate student in Cyber Science and Engineering, Shanghai Jiao Tong University.

@@ -34,7 +34,7 @@
 [[main]]
   identifier = "web"
   pre = "link"
-  url = "https://github.com/kody-black/page"
+  url = "https://github.com/kody-black/blog"
   weight = 40
 
 [[main]]

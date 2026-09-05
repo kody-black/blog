@@ -1,14 +1,14 @@
 ---
-description: "关于"
-showComments: true
+title: "关于"
+description: "关于 Kody Black"
 showEdit: false
 showAuthor: false
 showDate: false
-showComments : false
-showWordCount : false
-showReadingTime : false
-showZenMode : false
-SharingLinks : false
+showComments: false
+showWordCount: false
+showReadingTime: false
+showZenMode: false
+sharingLinks: false
 ---
 
 你好，我是Kody，现在是上海交大网络空间安全专业的一名研究生

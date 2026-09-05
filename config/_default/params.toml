@@ -9,8 +9,10 @@ colorScheme = "ocean"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
+enableA11y = true
 enableSearch = true
 enableCodeCopy = true
+enableStructuredBreadcrumbs = true
 
 mainSections = ["posts"]
 # robots = ""
@@ -23,7 +25,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed" # valid options: basic, fixed
+  layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -38,7 +40,7 @@ smartTOCHideUnfocusedChildren = true
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
-  showMoreLinkDest = "/blog/posts"
+  showMoreLinkDest = "/posts/"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
@@ -48,7 +50,7 @@ smartTOCHideUnfocusedChildren = true
   #showViews = true
   #showLikes = true
   showComments = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background
@@ -63,6 +65,8 @@ smartTOCHideUnfocusedChildren = true
   invertPagination = false
   showReadingTime = true
   showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 6
   showTaxonomies = true 
   showAuthorsBadges = false 
   showWordCount = true
