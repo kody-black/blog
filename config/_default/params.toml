@@ -117,8 +117,8 @@ smartTOCHideUnfocusedChildren = true
 [giscus]
   repo = "kody-black/blog"
   repoId = "R_kgDOMaqL8w"
-  category = "Announcements"
-  categoryId = "DIC_kwDOMaqL884DFFVY"
+  category = "General"
+  categoryId = "DIC_kwDOMaqL884DFFVZ"
   mapping = "pathname"
   strict = "0"
   reactionsEnabled = "1"
