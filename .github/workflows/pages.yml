@@ -4,19 +4,19 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Builds need read-only access; deployment permissions are scoped to deploy.
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'production' }}"
   cancel-in-progress: false
 
 # Default to bash
@@ -27,6 +27,7 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -41,20 +42,38 @@ jobs:
           extended: true
 
       - name: Setup Pages
+        if: github.event_name != 'pull_request'
         id: pages
         uses: actions/configure-pages@v5
 
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
-        run: hugo --minify --cleanDestinationDir --baseURL "${{ steps.pages.outputs.base_url }}/"
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          args=(--minify --cleanDestinationDir)
+          if [[ -n "$PAGES_BASE_URL" ]]; then
+            args+=(--baseURL "${PAGES_BASE_URL}/")
+          fi
+          hugo "${args[@]}"
+
+      - name: Check internal links and assets
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python3 scripts/check_links.py public "${PAGES_BASE_URL:-https://kody-black.github.io/blog}/"
 
       - name: Upload artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
 
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    permissions:
+      pages: write
+      id-token: write
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

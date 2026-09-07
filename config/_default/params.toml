@@ -40,7 +40,8 @@ smartTOCHideUnfocusedChildren = true
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
-  showMoreLinkDest = "/posts/"
+  # relLangURL needs a relative path to preserve /blog/ and the current language.
+  showMoreLinkDest = "posts/"
   cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
