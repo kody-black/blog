@@ -9,6 +9,11 @@ Kody Black 的个人博客，记录网络安全、开发与学习笔记。
 - 生成器：[Hugo](https://gohugo.io/)
 - 主题：[Blowfish](https://blowfish.page/)
 
+## 网页写作
+
+访问 [Pages CMS](https://app.pagescms.org/)，用 GitHub 登录后选择本仓库的 `main` 分支。
+支持新建文章、草稿、可视化正文和图片上传；首次授权与发布流程见 [写作指南](docs/writing.md)。
+
 ## 本地运行
 
 建议使用与 CI 一致的 Hugo Extended **0.159.1**，并初始化主题子模块：

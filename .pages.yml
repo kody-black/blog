@@ -1,0 +1,76 @@
+media:
+  - name: inline
+    label: 正文图片
+    input: static/uploads
+    output: /blog/uploads
+    rename: random
+    extensions: [jpg, jpeg, png, webp, gif]
+  - name: covers
+    label: 文章封面
+    input: assets/uploads/covers
+    output: uploads/covers
+    rename: random
+    extensions: [jpg, jpeg, png, webp]
+
+content:
+  - name: posts
+    label: 博客文章
+    type: collection
+    path: content/posts
+    format: yaml-frontmatter
+    subfolders: true
+    exclude: [_index.md, _index.en.md]
+    filename:
+      template: "{year}-{month}-{day}-{primary}.md"
+      field: create
+    view:
+      primary: title
+      sort: date
+      order: desc
+    operations:
+      rename: false
+      delete: false
+    fields:
+      - name: title
+        label: 标题
+        type: string
+        required: true
+      - name: date
+        label: 发布日期
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+      - name: draft
+        label: 草稿（关闭后保存即发布）
+        type: boolean
+        default: true
+        description: 草稿不显示在博客，但公开仓库中的文件仍可被他人查看。
+      - name: summary
+        label: 摘要
+        type: text
+      - name: categories
+        label: 分类
+        type: string
+        list: true
+      - name: tags
+        label: 标签
+        type: string
+        list: true
+      - name: featureimage
+        label: 封面（可选）
+        type: image
+        options:
+          media: covers
+      - name: showTableOfContents
+        label: 显示目录
+        type: boolean
+        default: true
+      - name: body
+        label: 正文
+        type: rich-text
+        description: 普通文章可视化编辑；含 Hugo 短代码的旧文章请先用源码模式检查，避免格式被改写。
+        options:
+          format: markdown
+          media: inline
+          switcher: true
