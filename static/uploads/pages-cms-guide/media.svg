@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+<title id="title">同一篇文章，两条图片路径</title><desc id="desc">本站使用 Hugo + Blowfish，部署前缀为 /blog/。正文图片 · 仓库：static/uploads/example.png；正文图片 · 页面引用：/blog/uploads/example.png；封面图片 · 仓库：assets/uploads/covers/example.png；封面图片 · 资源标识：uploads/covers/example.png</desc>
+<rect width="1120" height="640" rx="24" fill="#0f172a"/>
+<g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<text x="64" y="80" fill="#38bdf8" font-size="18" letter-spacing="3">KODY BLOG · PAGES CMS</text>
+<text x="64" y="146" fill="#f8fafc" font-size="40" font-weight="700">同一篇文章，两条图片路径</text>
+<text x="64" y="190" fill="#94a3b8" font-size="21">本站使用 Hugo + Blowfish，部署前缀为 /blog/</text>
+<rect x="64" y="236" width="478" height="132" rx="16" fill="#1e293b" stroke="#334155"/><rect x="64" y="256" width="4" height="88" fill="#38bdf8"/><text x="88" y="281" fill="#f1f5f9" font-size="24" font-weight="600">正文图片 · 仓库</text><text x="88" y="326" fill="#cbd5e1" font-size="20">static/uploads/example.png</text>
+<rect x="578" y="236" width="478" height="132" rx="16" fill="#1e293b" stroke="#334155"/><rect x="578" y="256" width="4" height="88" fill="#a78bfa"/><text x="602" y="281" fill="#f1f5f9" font-size="24" font-weight="600">正文图片 · 页面引用</text><text x="602" y="326" fill="#cbd5e1" font-size="20">/blog/uploads/example.png</text>
+<rect x="64" y="396" width="478" height="132" rx="16" fill="#1e293b" stroke="#334155"/><rect x="64" y="416" width="4" height="88" fill="#38bdf8"/><text x="88" y="441" fill="#f1f5f9" font-size="24" font-weight="600">封面图片 · 仓库</text><text x="88" y="486" fill="#cbd5e1" font-size="20">assets/uploads/covers/example.png</text>
+<rect x="578" y="396" width="478" height="132" rx="16" fill="#1e293b" stroke="#334155"/><rect x="578" y="416" width="4" height="88" fill="#a78bfa"/><text x="602" y="441" fill="#f1f5f9" font-size="24" font-weight="600">封面图片 · 资源标识</text><text x="602" y="486" fill="#cbd5e1" font-size="20">uploads/covers/example.png</text>
+<text x="64" y="590" fill="#94a3b8" font-size="17">原理示意图 · 非后台截图</text></g></svg>
