@@ -1,13 +1,18 @@
 ---
-title: "给 Hugo 博客装上可视化后台：Pages CMS 接入实战"
+title: 给 Hugo 博客装上可视化后台：Pages CMS 接入实战
 date: 2026-09-08
-draft: true
-summary: "不用搬家、不用自建服务器，为 Hugo + GitHub Pages 接入 Pages CMS：从 GitHub 授权、文章表单和图片配置，到草稿发布与常见问题。"
-categories: ["博客折腾"]
-tags: ["Pages CMS", "Hugo", "GitHub Pages", "Blowfish"]
+draft: false
+summary: 不用搬家、不用自建服务器，为 Hugo + GitHub Pages 接入 Pages CMS：从 GitHub
+  授权、文章表单和图片配置，到草稿发布与常见问题。
+categories:
+  - 博客折腾
+tags:
+  - Pages CMS
+  - Hugo
+  - GitHub Pages
+  - Blowfish
 showTableOfContents: true
 ---
-
 博客搭好以后，真正影响更新频率的，往往不是主题够不够好看，而是写一篇文章要经过多少步骤：新建文件、填写 Front Matter、整理图片，再提交 Git。
 
 这次给博客接入了 **Pages CMS**，把常用操作变成网页表单。底层仍然是 Markdown 和 Git，网站也继续由 Hugo 与 GitHub Pages 发布。
@@ -242,8 +247,9 @@ Blowfish 的特殊排版、Hugo 短代码和复杂 HTML，不保证在富文本�
 
 ### 快速排查表
 
+
 | 现象 | 优先检查 |
-| --- | --- |
+| ------------- | -------------------------------------- |
 | 登录后找不到仓库 | GitHub App 授权账号和仓库范围 |
 | 后台没有文章表单 | 所选分支是否有完整的根目录 `.pages.yml` |
 | 正文图片 404 | `input` 是否正确，`output` 是否包含部署前缀 |
@@ -251,6 +257,7 @@ Blowfish 的特殊排版、Hugo 短代码和复杂 HTML，不保证在富文本�
 | 保存后首页没有新文章 | 草稿、未来日期，以及 Actions 构建／部署状态 |
 | 修改后链接或评论对应不上 | 是否改过文章文件名、slug 或目录 |
 | 编辑后旧排版发生变化 | 短代码、HTML 是否被富文本转换；检查提交差异 |
+
 
 ## 七、这次接入的边界与小结
 
